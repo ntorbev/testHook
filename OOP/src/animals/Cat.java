@@ -1,8 +1,9 @@
 package animals;
 
-public class Dog extends Animals{
-    private String noise="woof";
-    public Dog(int age, String name, String gender){
+public class Cat extends Animals{
+    private String noise="meow";
+
+    public Cat(int age, String name, String  gender){
         super( age, name, gender);
     }
 
@@ -10,3 +11,4 @@ public class Dog extends Animals{
         System.out.println(this.noise);
     }
 }
+

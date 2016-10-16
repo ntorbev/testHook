@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Random;
 import animals.Animals;
+import animals.Cat;
 import animals.Dog;
 
 public class Main {
@@ -32,7 +33,13 @@ public class Main {
 
         Arrays.sort(workers, Collections.reverseOrder());
 
-        Dog nikiDog = new Dog(12,"niki",10);
-        nikiDog.say();
+        Dog nikiDog = new Dog(12,"nikiDog","male");
+        Cat nikiCat = new Cat(9,"nikiCat","male");
+        Animals[] animals={nikiDog,nikiCat};
+
+        for (Animals animal:
+                animals) {
+            animal.say();
+        }
     }
 }
