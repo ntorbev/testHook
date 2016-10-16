@@ -1,10 +1,8 @@
-import java.lang.reflect.Array;
-import java.net.SocketPermission;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Random;
-//import org.apache.commons.lang3.ArrayUtils;
+import animals.Animals;
+import animals.Dog;
 
 public class Main {
 
@@ -34,7 +32,7 @@ public class Main {
 
         Arrays.sort(workers, Collections.reverseOrder());
 
-        System.out.println();
-
+        Dog nikiDog = new Dog(12,"niki",10);
+        nikiDog.say();
     }
 }

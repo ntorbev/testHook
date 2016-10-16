@@ -1,6 +1,3 @@
-/**
- * Created by vili on 9/29/2016.
- */
 public class Student extends Human implements Comparable<Student>{
     private int grade;
 

@@ -1,6 +1,3 @@
-/**
- * Created by vili on 9/29/2016.
- */
 public class Human {
     private String first_name;
     private String last_name;
